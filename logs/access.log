@@ -1,0 +1,5 @@
+172.20.0.1 - - [19/Sep/2019:04:40:32 +0900] "GET /index.html HTTP/1.1" 200 12 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" "-"
+172.20.0.1 - - [19/Sep/2019:04:40:32 +0900] "GET /favicon.ico HTTP/1.1" 404 27 "http://127.0.0.1:10080/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" "-"
+172.20.0.1 - - [19/Sep/2019:04:40:55 +0900] "GET /phpinfo.php HTTP/1.1" 200 88952 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" "-"
+172.20.0.1 - - [19/Sep/2019:04:42:40 +0900] "GET / HTTP/1.1" 404 27 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" "-"
+172.20.0.1 - - [19/Sep/2019:04:51:15 +0900] "GET / HTTP/1.1" 200 2372 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" "-"
