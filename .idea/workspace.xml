@@ -4,6 +4,11 @@
     <list default="true" id="275012cf-6305-4367-9373-374b8d4a72f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mysql-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mysql-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mysql-query.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mysql-query.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/mysql-slow.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/mysql-slow.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
