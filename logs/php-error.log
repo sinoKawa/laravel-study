@@ -2,3 +2,4 @@
 [19-Sep-2019 06:56:45 Asia/Tokyo] PHP Warning:  require(/work/public/../vendor/autoload.php): failed to open stream: No such file or directory in /work/public/index.php on line 24
 [21-Sep-2019 19:26:27 Asia/Tokyo] PHP Warning:  require(/work/public/../vendor/autoload.php): failed to open stream: No such file or directory in /work/public/index.php on line 24
 [21-Sep-2019 19:33:20 Asia/Tokyo] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[22-Sep-2019 19:47:25 Asia/Tokyo] PHP Warning:  require(/work/public/../vendor/autoload.php): failed to open stream: No such file or directory in /work/public/index.php on line 24
