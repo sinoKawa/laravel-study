@@ -34,6 +34,7 @@ services:
     ports:
       - 13306:3306
     volumes:
+      - ./dbwork:/home
       - db-store:/var/lib/mysql
       - ./logs:/var/log/mysql
       - ./docker/mysql/my.cnf:/etc/mysql/conf.d/my.cnf

@@ -1,0 +1,162 @@
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2019-09-22T19:46:47.459168+09:00	    7 Connect	
+2019-09-22T19:46:47.459241+09:00	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2019-09-22T19:46:47.465774+09:00	    7 Quit	
+2019-09-22T19:54:28.085379+09:00	    8 Connect	homestead@172.25.0.3 on homestead using TCP/IP
+2019-09-22T19:54:28.086053+09:00	    8 Query	use `homestead`
+2019-09-22T19:54:28.087145+09:00	    8 Prepare	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-22T19:54:28.087268+09:00	    8 Execute	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-22T19:54:28.087423+09:00	    8 Close stmt	
+2019-09-22T19:54:28.087566+09:00	    8 Prepare	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-22T19:54:28.087649+09:00	    8 Execute	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-22T19:54:28.087791+09:00	    8 Close stmt	
+2019-09-22T19:54:28.087878+09:00	    8 Prepare	SELECT 1
+2019-09-22T19:54:28.091091+09:00	    8 Execute	SELECT 1
+2019-09-22T19:54:28.091266+09:00	    8 Close stmt	
+2019-09-22T19:54:28.115903+09:00	    8 Prepare	SELECT 1
+2019-09-22T19:54:28.115983+09:00	    8 Execute	SELECT 1
+2019-09-22T19:54:28.116107+09:00	    8 Close stmt	
+2019-09-22T19:54:28.180435+09:00	    8 Prepare	SELECT 1
+2019-09-22T19:54:28.180563+09:00	    8 Execute	SELECT 1
+2019-09-22T19:54:28.180806+09:00	    8 Close stmt	
+2019-09-22T19:54:28.189848+09:00	    8 Prepare	SELECT 1
+2019-09-22T19:54:28.190019+09:00	    8 Execute	SELECT 1
+2019-09-22T19:54:28.190225+09:00	    8 Close stmt	
+2019-09-22T19:54:28.220932+09:00	    8 Quit	
+2019-09-22T21:54:42.714541+09:00	    9 Connect	homestead@172.25.0.3 on homestead using TCP/IP
+2019-09-22T21:54:42.714967+09:00	    9 Query	use `homestead`
+2019-09-22T21:54:42.715422+09:00	    9 Prepare	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-22T21:54:42.715684+09:00	    9 Execute	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-22T21:54:42.715983+09:00	    9 Close stmt	
+2019-09-22T21:54:42.716288+09:00	    9 Prepare	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-22T21:54:42.716515+09:00	    9 Execute	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-22T21:54:42.716864+09:00	    9 Close stmt	
+2019-09-22T21:54:42.717153+09:00	    9 Prepare	SELECT 1
+2019-09-22T21:54:42.719320+09:00	    9 Execute	SELECT 1
+2019-09-22T21:54:42.719590+09:00	    9 Close stmt	
+2019-09-22T21:54:42.746706+09:00	    9 Prepare	SELECT 1
+2019-09-22T21:54:42.747137+09:00	    9 Execute	SELECT 1
+2019-09-22T21:54:42.747653+09:00	    9 Close stmt	
+2019-09-22T21:54:42.819716+09:00	    9 Quit	
+2019-09-23T12:00:28.141151+09:00	   10 Connect	homestead@172.25.0.3 on homestead using TCP/IP
+2019-09-23T12:00:28.141555+09:00	   10 Query	use `homestead`
+2019-09-23T12:00:28.142035+09:00	   10 Prepare	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-23T12:00:28.142225+09:00	   10 Execute	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-23T12:00:28.142500+09:00	   10 Close stmt	
+2019-09-23T12:00:28.142776+09:00	   10 Prepare	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-23T12:00:28.142973+09:00	   10 Execute	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-23T12:00:28.143263+09:00	   10 Close stmt	
+2019-09-23T12:00:28.143567+09:00	   10 Prepare	SELECT 1
+2019-09-23T12:00:28.145543+09:00	   10 Execute	SELECT 1
+2019-09-23T12:00:28.145940+09:00	   10 Close stmt	
+2019-09-23T12:00:28.175515+09:00	   10 Prepare	SELECT 1
+2019-09-23T12:00:28.175805+09:00	   10 Execute	SELECT 1
+2019-09-23T12:00:28.176146+09:00	   10 Close stmt	
+2019-09-23T12:00:28.250052+09:00	   10 Quit	
+2019-09-23T12:00:55.626499+09:00	   11 Connect	homestead@172.25.0.3 on homestead using TCP/IP
+2019-09-23T12:00:55.626891+09:00	   11 Query	use `homestead`
+2019-09-23T12:00:55.627261+09:00	   11 Prepare	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-23T12:00:55.627444+09:00	   11 Execute	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-23T12:00:55.627702+09:00	   11 Close stmt	
+2019-09-23T12:00:55.627896+09:00	   11 Prepare	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-23T12:00:55.628069+09:00	   11 Execute	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-23T12:00:55.628317+09:00	   11 Close stmt	
+2019-09-23T12:00:55.628606+09:00	   11 Prepare	SELECT 1
+2019-09-23T12:00:55.630613+09:00	   11 Execute	SELECT 1
+2019-09-23T12:00:55.630949+09:00	   11 Close stmt	
+2019-09-23T12:00:55.660739+09:00	   11 Prepare	SELECT 1
+2019-09-23T12:00:55.661091+09:00	   11 Execute	SELECT 1
+2019-09-23T12:00:55.661506+09:00	   11 Close stmt	
+2019-09-23T12:00:55.736241+09:00	   11 Quit	
+2019-09-23T12:01:27.206956+09:00	   12 Connect	homestead@172.25.0.3 on homestead using TCP/IP
+2019-09-23T12:01:27.207274+09:00	   12 Query	use `homestead`
+2019-09-23T12:01:27.207594+09:00	   12 Prepare	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-23T12:01:27.207744+09:00	   12 Execute	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-23T12:01:27.207965+09:00	   12 Close stmt	
+2019-09-23T12:01:27.208140+09:00	   12 Prepare	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-23T12:01:27.208280+09:00	   12 Execute	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-23T12:01:27.208527+09:00	   12 Close stmt	
+2019-09-23T12:01:27.208709+09:00	   12 Prepare	SELECT 1
+2019-09-23T12:01:27.210351+09:00	   12 Execute	SELECT 1
+2019-09-23T12:01:27.210647+09:00	   12 Close stmt	
+2019-09-23T12:01:27.239683+09:00	   12 Prepare	SELECT 1
+2019-09-23T12:01:27.239953+09:00	   12 Execute	SELECT 1
+2019-09-23T12:01:27.240314+09:00	   12 Close stmt	
+2019-09-23T12:01:27.314126+09:00	   12 Quit	
+2019-09-23T12:01:39.837126+09:00	   13 Connect	homestead@172.25.0.3 on homestead using TCP/IP
+2019-09-23T12:01:39.837422+09:00	   13 Query	use `homestead`
+2019-09-23T12:01:39.837718+09:00	   13 Prepare	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-23T12:01:39.837863+09:00	   13 Execute	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-23T12:01:39.838111+09:00	   13 Close stmt	
+2019-09-23T12:01:39.838309+09:00	   13 Prepare	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-23T12:01:39.838459+09:00	   13 Execute	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-23T12:01:39.838683+09:00	   13 Close stmt	
+2019-09-23T12:01:39.838861+09:00	   13 Prepare	SELECT 1
+2019-09-23T12:01:39.840497+09:00	   13 Execute	SELECT 1
+2019-09-23T12:01:39.840743+09:00	   13 Close stmt	
+2019-09-23T12:01:39.866518+09:00	   13 Prepare	SELECT 1
+2019-09-23T12:01:39.866875+09:00	   13 Execute	SELECT 1
+2019-09-23T12:01:39.867185+09:00	   13 Close stmt	
+2019-09-23T12:01:39.932099+09:00	   13 Quit	
+2019-09-23T12:03:06.174779+09:00	   14 Connect	homestead@172.25.0.3 on homestead using TCP/IP
+2019-09-23T12:03:06.175116+09:00	   14 Query	use `homestead`
+2019-09-23T12:03:06.175483+09:00	   14 Prepare	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-23T12:03:06.175664+09:00	   14 Execute	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-23T12:03:06.175882+09:00	   14 Close stmt	
+2019-09-23T12:03:06.176058+09:00	   14 Prepare	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-23T12:03:06.176198+09:00	   14 Execute	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-23T12:03:06.176463+09:00	   14 Close stmt	
+2019-09-23T12:03:06.176667+09:00	   14 Prepare	SELECT 1
+2019-09-23T12:03:06.178326+09:00	   14 Execute	SELECT 1
+2019-09-23T12:03:06.178580+09:00	   14 Close stmt	
+2019-09-23T12:03:06.205463+09:00	   14 Prepare	SELECT 1
+2019-09-23T12:03:06.205721+09:00	   14 Execute	SELECT 1
+2019-09-23T12:03:06.206017+09:00	   14 Close stmt	
+2019-09-23T12:03:06.276044+09:00	   14 Quit	
+2019-09-23T13:06:44.348301+09:00	   15 Connect	homestead@172.25.0.3 on homestead using TCP/IP
+2019-09-23T13:06:44.348662+09:00	   15 Query	use `homestead`
+2019-09-23T13:06:44.349046+09:00	   15 Prepare	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-23T13:06:44.349225+09:00	   15 Execute	set names 'utf8mb4' collate 'utf8mb4_unicode_ci'
+2019-09-23T13:06:44.349505+09:00	   15 Close stmt	
+2019-09-23T13:06:44.349756+09:00	   15 Prepare	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-23T13:06:44.349935+09:00	   15 Execute	set session sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION'
+2019-09-23T13:06:44.350203+09:00	   15 Close stmt	
+2019-09-23T13:06:44.352460+09:00	   15 Prepare	select * from information_schema.tables where table_schema = ? and table_name = ? and table_type = 'BASE TABLE'
+2019-09-23T13:06:44.355585+09:00	   15 Execute	select * from information_schema.tables where table_schema = 'homestead' and table_name = 'migrations' and table_type = 'BASE TABLE'
+2019-09-23T13:06:44.363077+09:00	   15 Close stmt	
+2019-09-23T13:06:44.375795+09:00	   15 Prepare	select `migration` from `migrations` order by `batch` asc, `migration` asc
+2019-09-23T13:06:44.376156+09:00	   15 Execute	select `migration` from `migrations` order by `batch` asc, `migration` asc
+2019-09-23T13:06:44.376703+09:00	   15 Close stmt	
+2019-09-23T13:06:44.379580+09:00	   15 Prepare	select max(`batch`) as aggregate from `migrations`
+2019-09-23T13:06:44.379774+09:00	   15 Execute	select max(`batch`) as aggregate from `migrations`
+2019-09-23T13:06:44.380112+09:00	   15 Close stmt	
+2019-09-23T13:06:44.392589+09:00	   15 Prepare	create table `failed_jobs` (`id` bigint unsigned not null auto_increment primary key, `connection` text not null, `queue` text not null, `payload` longtext not null, `exception` longtext not null, `failed_at` timestamp default CURRENT_TIMESTAMP not null) default character set utf8mb4 collate 'utf8mb4_unicode_ci'
+2019-09-23T13:06:44.392756+09:00	   15 Execute	create table `failed_jobs` (`id` bigint unsigned not null auto_increment primary key, `connection` text not null, `queue` text not null, `payload` longtext not null, `exception` longtext not null, `failed_at` timestamp default CURRENT_TIMESTAMP not null) default character set utf8mb4 collate 'utf8mb4_unicode_ci'
+2019-09-23T13:06:44.414899+09:00	   15 Close stmt	
+2019-09-23T13:06:44.416646+09:00	   15 Prepare	insert into `migrations` (`migration`, `batch`) values (?, ?)
+2019-09-23T13:06:44.416846+09:00	   15 Execute	insert into `migrations` (`migration`, `batch`) values ('2019_08_19_000000_create_failed_jobs_table', 2)
+2019-09-23T13:06:44.421414+09:00	   15 Close stmt	
+2019-09-23T13:06:44.424696+09:00	   15 Quit	
+2019-09-23T13:14:10.835839+09:00	   16 Connect	root@localhost on  using Socket
+2019-09-23T13:14:10.836217+09:00	   16 Connect	Access denied for user 'root'@'localhost' (using password: NO)
+2019-09-23T13:15:31.431923+09:00	   17 Connect	homestead@localhost on  using Socket
+2019-09-23T13:15:31.432514+09:00	   17 Query	select @@version_comment limit 1
+2019-09-23T13:16:22.898132+09:00	   17 Query	show databases
+2019-09-23T13:20:01.112687+09:00	   17 Query	SELECT DATABASE()
+2019-09-23T13:20:01.113238+09:00	   17 Init DB	homestead
+2019-09-23T13:20:01.114161+09:00	   17 Query	show databases
+2019-09-23T13:20:01.114775+09:00	   17 Query	show tables
+2019-09-23T13:20:01.115672+09:00	   17 Field List	failed_jobs 
+2019-09-23T13:20:01.116626+09:00	   17 Field List	migrations 
+2019-09-23T13:20:01.116978+09:00	   17 Field List	password_resets 
+2019-09-23T13:20:01.117790+09:00	   17 Field List	users 
+2019-09-23T13:20:16.927743+09:00	   17 Query	show tables
+2019-09-23T13:23:08.047420+09:00	   17 Quit	
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2019-09-23T13:29:47.101808+09:00	    7 Connect	
+2019-09-23T13:29:47.102181+09:00	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2019-09-23T13:29:47.106368+09:00	    7 Quit	
